@@ -18,6 +18,7 @@
 		977F72F1201D2EBB00D4982F /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F72F0201D2EBB00D4982F /* TapViewController.m */; };
 		977F72F4201D325800D4982F /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F72F3201D325800D4982F /* PinchViewController.m */; };
 		977F72F7201D47F800D4982F /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F72F6201D47F800D4982F /* SwipeViewController.m */; };
+		977F72FA201D8A4100D4982F /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F72F9201D8A4100D4982F /* RotationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		977F72F3201D325800D4982F /* PinchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
 		977F72F5201D47F800D4982F /* SwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
 		977F72F6201D47F800D4982F /* SwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		977F72F8201D8A4100D4982F /* RotationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		977F72F9201D8A4100D4982F /* RotationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				977F72F3201D325800D4982F /* PinchViewController.m */,
 				977F72F5201D47F800D4982F /* SwipeViewController.h */,
 				977F72F6201D47F800D4982F /* SwipeViewController.m */,
+				977F72F8201D8A4100D4982F /* RotationViewController.h */,
+				977F72F9201D8A4100D4982F /* RotationViewController.m */,
 				977F72C0201D2D3F00D4982F /* Main.storyboard */,
 				977F72C3201D2D3F00D4982F /* Assets.xcassets */,
 				977F72C5201D2D3F00D4982F /* LaunchScreen.storyboard */,
@@ -283,6 +288,7 @@
 				977F72EE201D2EAE00D4982F /* PanViewController.m in Sources */,
 				977F72CA201D2D3F00D4982F /* main.m in Sources */,
 				977F72F4201D325800D4982F /* PinchViewController.m in Sources */,
+				977F72FA201D8A4100D4982F /* RotationViewController.m in Sources */,
 				977F72F7201D47F800D4982F /* SwipeViewController.m in Sources */,
 				977F72F1201D2EBB00D4982F /* TapViewController.m in Sources */,
 				977F72BC201D2D3F00D4982F /* AppDelegate.m in Sources */,
