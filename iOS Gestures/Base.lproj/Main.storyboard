@@ -24,7 +24,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="boS-PN-c2j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="345" y="1272"/>
+            <point key="canvasLocation" x="345" y="1271"/>
+        </scene>
+        <!--Edge-->
+        <scene sceneID="yNu-7Z-yO0">
+            <objects>
+                <viewController id="9W0-r5-tCM" customClass="EdgePanViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Pw-MX-kWe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="5Xo-uE-NSx"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Edge" image="item6" id="30Q-7h-4ff"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zni-qM-Ao7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1232.8" y="1270.6146926536733"/>
         </scene>
         <!--Tap-->
         <scene sceneID="dJM-ev-max">
@@ -124,6 +141,7 @@
                         <segue destination="gXo-GZ-MbE" kind="relationship" relationship="viewControllers" id="scb-k7-hI6"/>
                         <segue destination="U4d-7S-hzA" kind="relationship" relationship="viewControllers" id="gw4-uW-VQc"/>
                         <segue destination="IrH-RG-C5D" kind="relationship" relationship="viewControllers" id="Tk5-28-j7D"/>
+                        <segue destination="9W0-r5-tCM" kind="relationship" relationship="viewControllers" id="4GB-ie-IVk"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JLI-fH-2kV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -153,5 +171,6 @@
         <image name="item3" width="30" height="28"/>
         <image name="item4" width="30" height="30"/>
         <image name="item5" width="30" height="30"/>
+        <image name="item6" width="30" height="30"/>
     </resources>
 </document>

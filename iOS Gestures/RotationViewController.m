@@ -25,7 +25,7 @@
 - (IBAction)rotationGesture:(UIRotationGestureRecognizer *)sender {
     
     sender.view.transform = CGAffineTransformRotate(sender.view.transform, sender.rotation);
-    sender.rotation = 0;
+    sender.rotation = 0; //if you dont set it to 0, it will not be able to rotate again after release...
     
 }
 
